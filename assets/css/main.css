@@ -1,3 +1,7 @@
+body{
+  background-color: #2B2B2B;
+  padding-top: 2em;
+}
 #splash {
   position:absolute;
   top:0;
@@ -11,9 +15,48 @@
   color: #ffaa07;
   font-size: 3.5em;
   margin: 0;
+  text-align: center;
+}
+.absolute-center{
   position: absolute;
   top: 50%;
   left: 50%;
   /* Its coordinates define how much the element moves in each direction. */
   transform: translate(-50%, -50%);
+}
+.underline{
+  padding-bottom: 0.1em;
+  border-bottom: 5px solid #ffaa07;
+}
+.map{
+  margin-top: 1em;
+  width: 80%;
+  height:200px;
+}
+.input-field label {
+  color: red;
+}
+.chips.focus {
+  border-bottom: 1px solid #ffaa07;
+  -webkit-box-shadow: 0 1px 0 0 #ffaa07;
+          box-shadow: 0 1px 0 0 #ffaa07;
+}
+.chips .chip.selected {
+  background-color: #ffaa07;
+  color: #fff;
+}
+/* label color */
+.chips .input {
+  color: #fff;
+}
+.restaurant-food{
+  background-image: url("http://www.lalenguacaribe.co/wp-content/uploads/2017/06/pepperoni_pizza.jpg");
+  background-size: 100%;
+  height: 150px;
+}
+.name{
+  color:#FFF;
+  text-shadow: 2px 2px 2px #000;
+  text-align: center;
+  margin: 0;
 }
